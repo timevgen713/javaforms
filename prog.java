@@ -7,7 +7,7 @@ import javax.swing.JComboBox;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JTextField;
-/////////////////////////////// Выбор категории ////////////////////////////////
+
 public class prog extends JFrame {
 
 	private JPanel contentPane;
@@ -45,6 +45,7 @@ public class prog extends JFrame {
 	public prog() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 474, 149);
+		setTitle("Выберите тип материала");
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
@@ -64,7 +65,6 @@ public class prog extends JFrame {
                 	tf.setText(item);
                 	if(item==items[1]) {
                 		lamp1.main(null);
-                		
                 	}
                 	if(item==items[2]) {
                 		plit1.main(null);
