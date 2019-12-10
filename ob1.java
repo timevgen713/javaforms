@@ -1,4 +1,3 @@
-package plate;
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
@@ -127,15 +126,15 @@ public class ob1 extends JFrame {
 						else N=Math.ceil(P / (cP * b));
 						
 					}
-					JOptionPane.showMessageDialog(null, "Вам потребуется обои в количестве "+(int)N+" рулонов");
+					JOptionPane.showMessageDialog(null, "Р’Р°Рј РїРѕС‚СЂРµР±СѓРµС‚СЃСЏ РѕР±РѕРё РІ РєРѕР»РёС‡РµСЃС‚РІРµ "+(int)N+" СЂСѓР»РѕРЅРѕРІ","Р РµР·СѓР»СЊС‚Р°С‚",1);
 				}
 				
 				catch(Exception w) {
-					JOptionPane.showMessageDialog(null, "Заполните все поля корректно");
+					JOptionPane.showMessageDialog(null, "Р—Р°РїРѕР»РЅРёС‚Рµ РІСЃРµ РїРѕР»СЏ РєРѕСЂСЂРµРєС‚РЅРѕ","РћС€РёР±РєР°",0);
 				}
 				}
 				else {
-					JOptionPane.showMessageDialog(null, "Заполните все поля");
+					JOptionPane.showMessageDialog(null, "Р—Р°РїРѕР»РЅРёС‚Рµ РІСЃРµ РїРѕР»СЏ","РћС€РёР±РєР°",0);
 				}
 			}
 		});
