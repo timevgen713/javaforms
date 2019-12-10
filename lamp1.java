@@ -1,5 +1,3 @@
-package plate;
-
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
 
@@ -129,14 +127,14 @@ public class lamp1 extends JFrame {
 						N = Math.ceil(((A - 2)*(B - 2)) / (a*b));
 					
 					}
-					JOptionPane.showMessageDialog(null, "Вам потребуется ламинат в количестве "+(int)N+" шт");
+					JOptionPane.showMessageDialog(null, "Р’Р°Рј РїРѕС‚СЂРµР±СѓРµС‚СЃСЏ Р»Р°РјРёРЅР°С‚ РІ РєРѕР»РёС‡РµСЃС‚РІРµ "+(int)N+" С€С‚","Р РµР·СѓР»СЊС‚Р°С‚",1);
 				}
 					catch(Exception w) {
-						JOptionPane.showMessageDialog(null, "Заполните все поля корректно");
+						JOptionPane.showMessageDialog(null, "Р—Р°РїРѕР»РЅРёС‚Рµ РІСЃРµ РїРѕР»СЏ РєРѕСЂСЂРµРєС‚РЅРѕ","РћС€РёР±РєР°",0);
 					}
 				}
 				else {
-					JOptionPane.showMessageDialog(null, "Заполните все поля");
+					JOptionPane.showMessageDialog(null, "Р—Р°РїРѕР»РЅРёС‚Рµ РІСЃРµ РїРѕР»СЏ","РћС€РёР±РєР°",0);
 				}
 			}
 		});
