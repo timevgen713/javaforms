@@ -1,4 +1,3 @@
-package plate;
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
@@ -154,14 +153,14 @@ public class plit1 extends JFrame {
 						
 					}
 				}
-					JOptionPane.showMessageDialog(null, "Вам потребуется плитка в количестве "+(int)N+" шт");
+					JOptionPane.showMessageDialog(null, "Р’Р°Рј РїРѕС‚СЂРµР±СѓРµС‚СЃСЏ РїР»РёС‚РєР° РІ РєРѕР»РёС‡РµСЃС‚РІРµ "+(int)N+" С€С‚","Р РµР·СѓР»СЊС‚Р°С‚",1);
 				}
 				catch(Exception w1) {
-					JOptionPane.showMessageDialog(null, "Заполните все поля корректно");
+					JOptionPane.showMessageDialog(null, "Р—Р°РїРѕР»РЅРёС‚Рµ РІСЃРµ РїРѕР»СЏ РєРѕСЂСЂРµРєС‚РЅРѕ","РћС€РёР±РєР°",0);
 				}
 				
 				else {
-					JOptionPane.showMessageDialog(null, "Заполните все поля");
+					JOptionPane.showMessageDialog(null, "Р—Р°РїРѕР»РЅРёС‚Рµ РІСЃРµ РїРѕР»СЏ","РћС€РёР±РєР°",0);
 				}
 			}
 			
