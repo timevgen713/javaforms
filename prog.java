@@ -74,7 +74,7 @@ public class prog extends JFrame {
                 	}
                 }
                 else {
-                	JOptionPane.showMessageDialog(null, "Выберите одно из трех");
+                	JOptionPane.showMessageDialog(null, "Выберите одно из трех","Ошибка",0);
                 }
                 	
 			}
