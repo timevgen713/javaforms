@@ -131,7 +131,7 @@ public class plit1 extends JFrame {
 								 N = cA * cB + Math.ceil(A / (2 * (a + h))) + Math.ceil(B /(b + h));
 								 
 							 }
-							 else if (dA < 0.5 && dA >= 0.5) {
+							 else if (dA < 0.5 && dB >= 0.5) {
 								 N = cA * cB + Math.ceil(B / (2*(b + h))) + Math.ceil(A /(a + h));
 								
 							 }
