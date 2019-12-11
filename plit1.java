@@ -1,4 +1,3 @@
-
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
 
@@ -129,11 +128,11 @@ public class plit1 extends JFrame {
 								 
 							}
 							 else if (dB < 0.5 && dA >= 0.5) {
-								 N = cA * cB + Math.ceil(A / (a + h)) + Math.ceil(B / (2 * (b + h)));
+								 N = cA * cB + Math.ceil(A / (2 * (a + h))) + Math.ceil(B /(b + h));
 								 
 							 }
 							 else if (dA < 0.5 && dA >= 0.5) {
-								 N = cA * cB + Math.ceil(B / (b + h)) + Math.ceil(A / (2 * (a + h)));
+								 N = cA * cB + Math.ceil(B / (2*(b + h))) + Math.ceil(A /(a + h));
 								
 							 }
 							 else {
